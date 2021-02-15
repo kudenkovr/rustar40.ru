@@ -6,6 +6,7 @@
 	
 <?=$this->render('common/headline')?>
 <?=$this->render('common/whyus')?>
+<?=$this->render('common/steps')?>
 	
 	
 	<section class="site-section contacts">
@@ -18,7 +19,7 @@
 					<div class="contacts-info row-flex">
 						<div class="col-1">
 							<h2 class="site-section-title">Контакты</h2>
-							<p class="site-section-subtitle">Адрес и контактные данные ООО "РусТар"</p>
+							<p class="site-section-description">Адрес и контактные данные ООО "РусТар"</p>
 							<hr class="site-section-hr">
 						</div>
 						<div class="col-1-4"><p><b>Адрес:</b></p></div>
@@ -28,8 +29,8 @@
 						<div class="col-3-4"><p>ПН-ПТ 8:00-19:00</p></div>
 						
 						<div class="col-1-4"><p><b>Телефон:</b></p></div>
-						<div class="col-3-4"><p>8 (920) 893-30-63<br>
-						8 (4842) 40-03-06</p></div>
+						<div class="col-3-4"><p><?=$phone?><br>
+						<?=$city_phone?></p></div>
 						
 						<div class="col-1-4"><p><b>Email:</b></p></div>
 						<div class="col-3-4"><p><a href="mailto:info@rustar40.ru">info@rustar40.ru</a></p></div>

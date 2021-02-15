@@ -17,6 +17,11 @@ class Page extends Model {
 		$this->styles[] = '/assets/rk.normalize-last.css';
 		$this->styles[] = '/assets/rk.grid-last.css';
 		$this->scripts[] = '/assets/jquery-last.min.js';
+		
+		/* Site data from DB */
+		$this->phone = '8 (920) 893-30-63';
+		$this->city_phone = '8 (4842) 40-03-06';
+		$this->email = 'info@rustar40.ru';
 	}
 	
 }

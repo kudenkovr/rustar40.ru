@@ -1,7 +1,7 @@
 	<section class="site-section whyus">
 		<div class="container">
 			<h2 class="site-section-title">Что мы предлагаем?</h2>
-			<p class="site-section-subtitle">Преимущества нашей компании</p>
+			<p class="site-section-description">Преимущества нашей компании</p>
 			<hr class="site-section-hr _question">
 			<div class="row-flex flex-center">
 				<div class="col-1-4">
